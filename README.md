@@ -8,7 +8,7 @@ Here is the link to download this dataset:
 [link](https://drive.google.com/file/d/0B_jQiLugGTAkMDQ5ZjZiMTUtMzQ1Yy00YWNmLWJlZDYtOWY1ZDMwY2U4YjFk/view?layout=list&ddrp=1&sort=name&num=50) 
 
 You will also need to download some pre-trained embeddings like 
-[glove](https://nlp.stanford.edu/projects/glove/). 
+[GloVe](https://nlp.stanford.edu/projects/glove/). 
 
 ## Dependencies 
 ```
