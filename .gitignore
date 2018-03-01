@@ -1,0 +1,5 @@
+.project
+.pydevproject
+*models/*
+*data/*
+*__pycache__/*

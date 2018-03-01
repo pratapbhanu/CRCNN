@@ -1,0 +1,33 @@
+data_dir:  ./data/
+model_dir: ./models/
+train_file: TRAIN_FILE.TXT
+test_file: TEST_FILE_FULL.TXT
+dtype: float32
+embeddings.dim: 50
+embeddings.tune: false
+embeddings.file: ./data/glove.6B.50d.txt
+embeddings.mat.file: null
+embeddings.init_scale: 0.25
+embeddings.dist.dim: 25
+learning_rate: 0.01
+training_iters: 40
+batch_size: 20
+eval_interval: 1
+train_step_eval: 1
+nprint: -1
+window: 
+    - 2
+    - 3
+    - 4
+    - 5
+nfeature_map: 25
+sent_length: 90
+dropout: 0.5
+l2: 0.01
+device: '/cpu:0'
+lm: 1.0
+margin_plus: 2.5
+margin_minus: 0.5
+experiment_name: 'test'
+seed: 123
+devset_size: 0.2
