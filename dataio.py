@@ -30,11 +30,6 @@ def words_to_indices(seq, vocab_dict):
     return word_indices
 
 def build_vocab(sentsdf, min_freq=1):
-    '''
-    Parses given xml files to build vocab.
-    
-    @param entsdf: Entities DataFrame w/ abstract & title columns
-    '''
     vocab_dict = defaultdict(int)
     for _, row in sentsdf.iterrows():
         for w in row.words:

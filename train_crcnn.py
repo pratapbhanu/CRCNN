@@ -1,9 +1,7 @@
 '''
-Created on 28 Nov 2017
+Created on 1 March 2018
 
 @author: Bhanu
-
-@copyright: copyright (c), 2017 Talla.com
 
 '''
 import tensorflow as tf
