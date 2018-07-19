@@ -1,6 +1,6 @@
 # Classifying Relations by Ranking with Convolutional Neural Networks
 
-Implementation of ACL 2017 Paper:  
+Implementation of ACL 2015 Paper:  
 [Classifying Relations by Ranking with Convolutional Neural Networks](https://arxiv.org/abs/1504.06580)
 
 ## Download SemEval 2010 Task 8 Dataset for Relation Classification
